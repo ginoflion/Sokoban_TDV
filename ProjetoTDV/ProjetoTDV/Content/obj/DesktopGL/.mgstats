@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character4.png","C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/bin/DesktopGL/Character4.xnb","TextureProcessor","Texture2DContent",1668,8817,0,2850377
+"C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Crate_Brown.png","C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/bin/DesktopGL/Crate_Brown.xnb","TextureProcessor","Texture2DContent",1064,16469,0,0117846
+"C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/EndPoint_Blue.png","C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/bin/DesktopGL/EndPoint_Blue.xnb","TextureProcessor","Texture2DContent",592,4181,0,0057868
+"C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/File.spritefont","C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/bin/DesktopGL/File.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0,2140232
+"C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/WallRound_Black.png","C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/bin/DesktopGL/WallRound_Black.xnb","TextureProcessor","Texture2DContent",1541,16469,0,0066823

@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character4.png","C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/bin/DesktopGL/Content/Character4.xnb","TextureProcessor","Texture2DContent",1668,8817,0,2758823
+"C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Crate_Brown.png","C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/bin/DesktopGL/Content/Crate_Brown.xnb","TextureProcessor","Texture2DContent",1064,16469,0,0051363
+"C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/EndPoint_Blue.png","C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/bin/DesktopGL/Content/EndPoint_Blue.xnb","TextureProcessor","Texture2DContent",592,4181,0,0050138
+"C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/WallRound_Black.png","C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/bin/DesktopGL/Content/WallRound_Black.xnb","TextureProcessor","Texture2DContent",1541,16469,0,0067481
