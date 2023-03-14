@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7P2ObF77RzkhuqBkSTdTTrRwBwbESN0FcuRluRnhHEgbELT5KB98m6tm1zzdpFskofzg8O7R+KhitdtbWPtQMQ==",
+  "dgSpecHash": "/EbLbDnh076iGfQAENuBOj2AOiHOHBk5DgIHyp8TKUViM4wS6VBPjRwPpVHlrN7QRVC86iwcT5MOnHMQjnVerA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gonca\\Sokoban_TDV\\ProjetoTDV\\ProjetoTDV\\ProjetoTDV.csproj",
+  "projectFilePath": "C:\\Users\\gonca\\source\\repos\\Sokoban_TDV\\ProjetoTDV\\ProjetoTDV\\ProjetoTDV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gonca\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "C:\\Users\\gonca\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"

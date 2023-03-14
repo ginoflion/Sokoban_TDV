@@ -4,11 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character4.png</File>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Crate_Brown.png</File>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/EndPoint_Blue.png</File>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/File.spritefont</File>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/WallRound_Black.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character4.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Crate_Brown.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/EndPoint_Blue.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/File.spritefont</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/WallRound_Black.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

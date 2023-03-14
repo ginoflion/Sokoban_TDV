@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 using System.IO;
 
 namespace ProjetoTDV
@@ -12,15 +13,23 @@ namespace ProjetoTDV
         private SpriteFont  font;
         private int nrLinhas = 0;
         private int nrColunas = 0;
-        private char[,] level;
         private Texture2D player, dot, box, wall;
-        int tileSize = 64;
         private Player sokoban;
+        private Game1 game;
+       
+        int tileSize = 64;
+
+        public char[,] level;
+
+        public List<Point> boxes;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            
         }
 
 
@@ -44,22 +53,26 @@ namespace ProjetoTDV
             box = Content.Load<Texture2D>("Crate_Brown");
             wall = Content.Load<Texture2D>("WallRound_Black");
 
+            boxes= new List<Point>();
+
             // TODO: use this.Content to load your game content here
         }
 
         protected override void Update(GameTime gameTime)
         {
+            
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
             // TODO: Add your update logic here
 
+            sokoban.Update(gameTime);
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Blue);
+            GraphicsDevice.Clear(Color.CornflowerBlue);
 
             _spriteBatch.Begin();
           
@@ -90,6 +103,12 @@ namespace ProjetoTDV
             position.X = sokoban.Position.X * tileSize; //posição do Player
             position.Y = sokoban.Position.Y * tileSize; //posição do Player
             _spriteBatch.Draw(player, position, Color.White); //desenha o Player
+            foreach (Point b in boxes)
+            {
+                position.X = b.X * tileSize;
+                position.Y = b.Y * tileSize;
+                _spriteBatch.Draw(box, position, Color.White);
+            }
 
             _spriteBatch.End();
 
@@ -108,9 +127,15 @@ namespace ProjetoTDV
             {
                 for (int y = 0; y < nrLinhas; y++)
                 {
-                    if (linhas[y][x] == 'Y')
+                    if (linhas[y][x] == '#')
                     {
-                        sokoban = new Player(x, y);
+                        boxes.Add(new Point(x, y));
+                        level[x, y] = ' '; // put a blank instead of the box '#'
+                    }
+
+                    else if (linhas[y][x] == 'Y')
+                    {
+                        sokoban = new Player(this,x, y);
                         level[x, y] = ' '; // put a blank instead of the sokoban 'Y'
                     }
                     else
@@ -121,5 +146,22 @@ namespace ProjetoTDV
             }
 
         }
+        public bool HasBox(int x, int y)
+        {
+            foreach (Point b in boxes)
+            {
+                if (b.X == x && b.Y == y) return true; // se a caixa tiver a mesma posição do Player
+            }
+            return false;
+        }
+        public bool FreeTile(int x, int y)
+        {
+            if (level[x, y] == 'X') return false; // se for uma parede está ocupada
+            if (HasBox(x, y)) return false; // verifica se é uma caixa
+            return true;
+            /* The same as: return level[x,y] != 'X' && !HasBox(x,y); */
+        }
+
+        
     }
 }
