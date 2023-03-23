@@ -4,13 +4,33 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character4.png</File>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Crate_Brown.png</File>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/EndPoint_Blue.png</File>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/File.spritefont</File>
-    <File>C:/Users/gonca/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/WallRound_Black.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character1.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character10.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character2.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character3.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character4.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character5.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character6.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character7.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character8.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Character9.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Crate_Brown.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/EndPoint_Blue.png</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/File.spritefont</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/Fonte.spritefont</File>
+    <File>C:/Users/gonca/source/repos/Sokoban_TDV/ProjetoTDV/ProjetoTDV/Content/WallRound_Black.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
